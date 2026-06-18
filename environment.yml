@@ -2,6 +2,7 @@ name: spectral-cookbook-dev
 channels:
   - conda-forge
 dependencies:
+  - python <= 3.10
   # Jupyter / MyST
   - jupyterlab
   - mystmd
@@ -35,3 +36,8 @@ dependencies:
   - s3fs
   - zarr
 
+# Machine learning libraries for application notebook
+  - scikit-learn
+  - pip
+  - pip: 
+    - tensorflow[and-cuda]

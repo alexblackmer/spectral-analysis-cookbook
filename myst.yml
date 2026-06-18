@@ -54,6 +54,7 @@ project:
       children:
         - file: notebooks/freq-decomp.ipynb
         - file: notebooks/extended-eofs.ipynb
+        - file: notebooks/ml-application.ipynb
         - file: notebooks/Multivariate_EOFs_extract_MJO.ipynb
         - file: notebooks/Application_to_MJO.ipynb
   jupyter:
