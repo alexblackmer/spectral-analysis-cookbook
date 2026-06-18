@@ -21,6 +21,7 @@ project:
         - file: notebooks/gibbs-phenomenon.ipynb
         - file: notebooks/eofs-2d.ipynb
         - file: notebooks/freq-decomp.ipynb
+        - file: notebooks/ml-application.ipynb
 
   jupyter:
       binder:
